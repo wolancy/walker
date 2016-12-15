@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="ico/rfs.ico">
+    <title>Walker Technology---run wild shopping</title>
+	
+    <!-- Bootstrap core CSS -->
+    <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/lightbox.css" rel="stylesheet">
+    <link href='http://fonts.useso.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+	
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">放肆够</a>
+        </div>
+        <div class="collapse navbar-collapse">        
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="index.html" class="dropdown-toggle" data-toggle="dropdown">首页</a>
+              <ul class="dropdown-menu">
+              	<li><a href="index.html">首页</a></li>
+              </ul> 
+            </li>
+            <li class="dropdown active">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">功能</a>
+              <ul class="dropdown-menu">
+                <li><a href="about-us.html">关于我们</a></li>
+                <li><a href="sign-in.html">我要登录</a></li>
+                <li><a href="sign-up.html">我要注册</a></li>
+              </ul>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">店铺</a>
+              <ul class="dropdown-menu">
+                <li><a href="shop.html">购物</a></li>
+                <li><a href="shopping-cart.html">购物车</a></li>
+              </ul>
+            </li>            
+
+              <form class="navbar-form navbar-right visible-xs" role="search">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search">
+              <span class="input-group-btn">
+                <button class="btn btn-blue" type="button">Search!</button>
+              </span>
+            </div>
+          </form>          
+        </div><!--/.nav-collapse -->
+      </div>
+    </div> <!-- / .navigation -->
+	<span id="header_shadow" style="width: 100%; top: 30px;"></span>
+
+    <!-- Wrapper -->
+    <div class="wrapper">
+	
+	  <!-- Topic Header -->
+      <div class="topic">
+        <div class="container">
+          <div class="row">            
+            <ol class="breadcrumb hidden-xs">
+              <li><a href="index.html">首页</a></li>
+              <li class="active">登录</li>
+            </ol>                      
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+      </div> <!-- / .Topic Header -->      
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+            <div class="sign-form">
+              <div class="sign-inner">
+                <h3 class="first-child">登录</h3>
+                <hr>
+                <form role="form">
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                    <input type="text" class="form-control" id="inputdata" placeholder="Username" >
+                  </div>
+                  <br />
+                  <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                    <input type="password" class="form-control" name="passwprd" id="password" placeholder="Password" >
+                  </div>
+				            <input type="button" class="btn-animate btn-style btn-d btn-primary"  id="enter" value="确认">               
+                  <hr>
+         
+                </form>
+                <p>没有注册？ <a href="sign-up.html">点击去注册</a></p>
+                <div class="pwd-lost">
+                  <div class="pwd-lost-q show">忘记密码？ <a href="#">找回密码</a></div>
+                  <div class="pwd-lost-f hidden">
+                    <p class="text-muted">输入您的邮箱，我们会将通过邮箱验证来修改密码</p>
+                    <form class="form-inline" role="form">
+                      <div class="form-group">
+                        <label class="sr-only" for="email-pwd">邮箱</label>
+                        <input type="email" class="form-control" id="email-pwd" placeholder="Enter Your Mail">						
+                      </div>
+					  <button type="submit" class="btn btn-style btn-k">发送</button>
+                    </form>					
+                  </div>
+                </div> <!-- / .pwd-lost -->
+              </div>
+            </div>
+          </div>
+        </div> <!-- / .row -->      
+      </div> <!-- / .container -->
+
+    </div> <!-- / .wrapper -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+		
+          <!-- Contact Us -->
+          
+            <h4>联系我们</h4>            
+			<p>
+			  <br />
+			  电话 : 15678956321<br />
+			  QQ : 1317733129
+			  <br /><br />
+			  <a>Walker Technology</a>
+			</p>			
+        </div> <!-- / .row -->		
+      </div> <!-- / .container --> 	  
+    </footer><!-- / .Footer -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrolltopcontrol.js"></script>
+	<script src="js/SmoothScroll.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/sign-in.js"></script>
+   
+  </body>
+</html>

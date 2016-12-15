@@ -1,0 +1,383 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="ico/rfs.ico">
+
+    <title>Walker Technology---run wild shopping</title>
+	
+    <!-- Bootstrap core CSS -->
+    <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/lightbox.css" rel="stylesheet">
+    <link href='http://fonts.useso.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+	
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">放肆够</a>
+        </div>
+        <div class="collapse navbar-collapse">        
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="index.html" class="dropdown-toggle" data-toggle="dropdown">首页</a>
+              <ul class="dropdown-menu">
+              	<li><a href="index.html">首页</a></li>
+              </ul> 
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">功能</a>
+              <ul class="dropdown-menu">
+                <li><a href="about-us.html">关于我们</a></li>
+                <li><a href="sign-in.html">我要登录</a></li>
+                <li><a href="sign-up.html">我要注册</a></li>
+              </ul>
+            <li class="dropdown active">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">店铺</a>
+              <ul class="dropdown-menu">
+                <li><a href="shop.html">购物</a></li>
+                <li><a href="shopping-cart.html">购物车</a></li>
+              </ul>
+            </li>            
+
+              <form class="navbar-form navbar-right visible-xs" role="search">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search">
+              <span class="input-group-btn">
+                <button class="btn btn-blue" type="button">Search!</button>
+              </span>
+            </div>
+          </form>          
+        </div><!--/.nav-collapse -->
+      </div>
+    </div> <!-- / .navigation -->
+	<span id="header_shadow" style="width: 100%; top: 30px;"></span>
+
+
+    <!-- Wrapper -->
+    <div class="wrapper">
+	  
+	  <!-- Topic Header -->
+      <div class="topic">
+        <div class="container">
+          <div class="row">            
+            <ol class="breadcrumb hidden-xs">
+              <li><a href="index.html">首页</a></li>
+              <li class="active">购物</li>
+            </ol>                      
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+      </div> <!-- / .Topic Header -->      
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-9">
+            <!-- Filters -->
+            <ul class="nav nav-tabs nav-justified">
+              <li class="active"><a href="#promo" data-toggle="tab">推广</a></li>
+              <li><a href="#popular" data-toggle="tab">飙升</a></li>
+              <li><a href="#new" data-toggle="tab">最新</a></li>
+              <li><a href="#last" data-toggle="tab">传统</a></li>
+            </ul>
+
+            <div class="row">
+              <div class="tab-content">
+
+                <!-- Promo-->
+                <div class="tab-pane fade in active" id="promo">
+                 <div class="col-sm-4">
+                    <div class="shop-product featured">
+                      <a><img src="img/shop/103193-106.jpg" class="img-responsive" id="pro_image"></a>
+                      <a><h5 class="primary-font" id="demond">阿狸</h5></a>  
+                      <p class="price">
+                        <span class="old">$125</span>
+                        <span class="new" id="price">$75</span>
+                      </p>
+									  
+                    </div>
+					<div class="add-to-cart" id="add">
+					  <a href="shop-item.html" class="btn-animate btn-style btn-xs btn-d btn-primary"></i> 详细信息 </a>
+					</div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="shop-product featured">
+                      <a><img src="img/shop/108156-106.jpg" class="img-responsive" id="pro_image"></a>
+                      <a><h5 class="primary-font" id="demond">柠檬汁</h5></a>
+                      <p class="price">
+                        <span class="old">$5</span>
+                        <span class="new" id="price">$5</span>
+                      </p>
+					 				  
+                    </div>
+					<div class="add-to-cart" id="add1">
+					  <a href="shop-item1.html" class="btn-animate btn-style btn-xs btn-d btn-primary"></i>详细信息</a>
+					</div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="shop-product featured">
+                      <a><img src="img/shop/11328-106.jpg" class="img-responsive" id="pro_image"></a>
+                      <a><h5 class="primary-font" id="demond">巴雷特</h5></a>
+                      <p class="price">
+                        <span class="old">$25000</span>
+                        <span class="new" id="price">$15000</span>
+                      </p>
+					 				  
+                    </div>
+					<div class="add-to-cart" id="add">
+					  <a href="shop-item2.html" class="btn-animate btn-style btn-xs btn-d btn-primary"></i> 详细信息</a>
+					</div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="shop-product featured">
+                      <a><img src="img/shop/14916-106.jpg" class="img-responsive" id="pro_image"></a>
+                      <a><h5 class="primary-font" id="demond">神奇胡萝卜</h5></a>
+                      <p class="price">
+                        <span class="old">$1250,89</span>
+                        <span class="new" id="price">$750,89</span>
+                      </p>
+									  
+                    </div>
+					<div class="add-to-cart" id="add">
+					  <a class="btn-animate btn-style btn-xs btn-d btn-primary"></i> 详细信息</a>
+					</div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="shop-product">
+                      <a><img src="img/shop/15137-106.jpg" class="img-responsive" id="pro_image"></a>
+                      <a><h5 class="primary-font" id="demond">天外星座</h5></a>
+                      <p>
+                        <span id="price">$75</span>
+                      </p>
+					  					  
+                    </div>
+					<div class="add-to-cart" id="add">
+					  <a class="btn-animate btn-style btn-xs btn-d btn-primary"></i>详细信息</a>
+					</div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="shop-product">
+                      <a><img src="img/shop/163453-106.jpg" class="img-responsive" id="pro_image"></a>
+                      <a><h5 class="primary-font" id="demond">老友狐狸</h5></a>
+                      <p>
+                        <span id="price">$175</span>
+                      </p>
+					  					  
+                    </div>
+					<div class="add-to-cart" id="add">
+					  <a class="btn-animate btn-style btn-xs btn-d btn-primary"></i> 详细信息</a>
+					</div>
+                  </div>
+                </div>
+
+                <!-- Most Popular -->
+                <div class="tab-pane fade" id="popular">
+                  <div class="col-sm-4">
+                    <div class="shop-product featured">
+                      <a><img src="img/shop/182736-106.jpg" class="img-responsive" id="pro_image"></a>
+                      <a><h5 class="primary-font" id="demond">变形金刚大boss</h5></a>
+                      <p class="price">
+                        <span class="old">$125000</span>
+                        <span class="new" id="price">$75000</span>
+                      </p>
+					  					  
+                    </div>
+					<div class="add-to-cart" id="add">
+					  <a href="shop-item3.html" class="btn-animate btn-style btn-xs btn-d btn-primary"></i>详细信息</a>
+					</div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="shop-product">
+                      <a><img src="img/shop/196211-106.jpg" class="img-responsive" id="pro_image"></a>
+                      <a><h5 class="primary-font" id="demond">兰博基尼</h5></a>
+                      <p>
+                        <span id="price">$175</span>
+                      </p>
+					  					  
+                    </div>
+					<div class="add-to-cart" id="add">
+					  <a class="btn-animate btn-style btn-xs btn-d btn-primary"></i> 详细信息</a>
+					</div>
+                  </div>
+                </div>
+
+                <!-- New Product -->
+                <div class="tab-pane fade" id="new">
+                  <div class="col-sm-4">
+                    <div class="shop-product featured">
+                      <a><img src="img/shop/97617-106.jpg" class="img-responsive" id="pro_image"></a>
+                      <a><h5 class="primary-font" id="demond">薰衣草</h5></a>
+                      <p class="price">
+                        <span class="old">$5,5</span>
+                        <span class="new" id="price">$1.1</span>
+                      </p>
+					 				  
+                    </div>
+					<div class="add-to-cart" id="add">
+					  <a class="btn-animate btn-style btn-xs btn-d btn-primary"></i>详细信息</a>
+					</div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="shop-product">
+                      <a><img src="img/shop/91308-106.jpg" class="img-responsive" id="pro_image"></a>
+                      <a><h5 class="primary-font" id="demond">左轮</h5></a>
+                      <p>
+                        <span id="price">$195</span>
+                      </p>
+								  
+                    </div>
+					<div class="add-to-cart" id="add">
+					  <a  class="btn-animate btn-style btn-xs btn-d btn-primary"></i>详细信息</a>
+					</div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="shop-product">
+                      <a><img src="img/shop/84141-106.jpg" class="img-responsive" id="pro_image"></a>
+                      <a><h5 class="primary-font" id="demond">向日葵</h5></a>
+                      <p>
+                        <span id="price">$15</span>
+                      </p>
+					  <p class="text-muted">
+                     					
+                      </p>					  
+                    </div>
+					<div class="add-to-cart" id="add">
+					  <a  class="btn-animate btn-style btn-xs btn-d btn-primary"></i>详细信息</a>
+					</div>
+                  </div>
+                                    <div class="col-sm-4">
+                    <div class="shop-product">
+                      <a><img src="img/shop/55181-106.jpg" class="img-responsive" id="pro_image"></a>
+                      <a><h5 class="primary-font" id="demond">水银大口径子弹</h5></a>
+                      <p>
+                        <span id="price">$25</span>
+                      </p>
+					  <p class="text-muted">
+                        					
+                      </p>					  
+                    </div>
+					<div class="add-to-cart" id="add">
+					  <a class="btn-animate btn-style btn-xs btn-d btn-primary"></i>详细信息</a>
+					</div>
+                  </div>
+                  
+                </div>
+
+                <!-- Last Chance -->
+                <div class="tab-pane fade" id="last">
+                  <div class="col-sm-4">
+                    <div class="shop-product">
+                      <a><img src="img/shop/81831-106.jpg" class="img-responsive" id="pro_image"></a>
+                      <a><h5 class="primary-font" id="demond">封印卷轴</h5></a>
+                      <p class="price">
+                        <span id="price">$250000</span>
+                      </p>
+										  
+                    </div>
+					<div class="add-to-cart" id="add">
+					  <a class="btn-animate btn-style btn-xs btn-d btn-primary"></i> 详细信息</a>
+					</div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="shop-product featured">
+                      <a><img src="img/shop/78539-106.jpg" class="img-responsive" id="pro_image"></a>
+                      <a><h5 class="primary-font" id="demond">太空coca</h5></a>
+                      <p class="price">
+                        <span class="old">$25</span>
+                        <span class="new" id="price">$7</span>
+                      </p>
+									  
+                    </div>
+					<div class="add-to-cart" id="add">
+					  <a class="btn-animate btn-style btn-xs btn-d btn-primary"></i> 详细信息</a>
+					</div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="shop-product featured">
+                      <a><img src="img/shop/62245-106.jpg" class="img-responsive" id="pro_image"></a>
+                      <a><h5 class="primary-font" id="demond">太空服</h5></a>
+                      <p class="price"> 
+                        <span class="old">$125000</span>
+                        <span class="new" id="price">$75000</span>
+                      </p>
+									  
+                    </div>
+					<div class="add-to-cart" id="add">
+					  <a class="btn-animate btn-style btn-xs btn-d btn-primary"></i> 详细信息</a>
+					</div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="shop-product">
+                      <a><img src="img/shop/59595-106.jpg" class="img-responsive" id="pro_image"></a>
+                      <a><h5 class="primary-font" id="demond">大城堡</h5></a>
+                      <p>
+                       <span id="price">$50000000000</span>
+                      </p>
+									  
+                    </div>
+					<div class="add-to-cart" id="add">
+					  <a class="btn-animate btn-style btn-xs btn-d btn-primary"></i> 详细信息</a>
+					</div>
+                  </div>
+                </div>
+              </div> <!-- /.tab-content -->         
+            </div> <!-- / .row -->
+
+            <!-- Pagination -->
+            
+          </div> <!-- / .col-sm-8 -->		  
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+
+    </div> <!-- / .wrapper -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+		
+          <!-- Contact Us -->
+          
+            <h4>联系我们</h4>            
+			<p>
+			  <br />
+			  电话 : 15678956321<br />
+			  QQ : 1317733129
+			  <br /><br />
+			  <a>Walker Technology</a>
+			</p>			
+        </div> <!-- / .row -->		
+      </div> <!-- / .container --> 	  
+    </footer><!-- / .Footer -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrolltopcontrol.js"></script>
+	<script src="js/SmoothScroll.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>

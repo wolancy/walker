@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="ico/rfs.ico">
+
+    <title>Walker Technology---run wild shopping</title>
+	
+    <!-- Bootstrap core CSS -->
+    <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/lightbox.css" rel="stylesheet">
+    <link href='http://fonts.useso.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+	
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">放肆够</a>
+        </div>
+        <div class="collapse navbar-collapse">        
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="index.html" class="dropdown-toggle" data-toggle="dropdown">首页</a>
+              <ul class="dropdown-menu">
+              	<li><a href="index.html">首页</a></li>
+              </ul> 
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">功能</a>
+              <ul class="dropdown-menu">
+                <li><a href="about-us.html">关于我们</a></li>
+                <li><a href="sign-in.html">我要登录</a></li>
+                <li><a href="sign-up.html">我要注册</a></li>
+              </ul>
+            <li class="dropdown active">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">店铺</a>
+              <ul class="dropdown-menu">
+                <li><a href="shop.html">购物</a></li>
+                <li><a href="shopping-cart.html">购物车</a></li>
+              </ul>
+            </li>            
+
+              <form class="navbar-form navbar-right visible-xs" role="search">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search">
+              <span class="input-group-btn">
+                <button class="btn btn-blue" type="button">Search!</button>
+              </span>
+            </div>
+          </form>          
+        </div><!--/.nav-collapse -->
+      </div>
+    </div> <!-- / .navigation -->
+	<span id="header_shadow" style="width: 100%; top: 30px;"></span>
+    <!-- Wrapper -->
+    <div class="wrapper">
+	
+	  <!-- Topic Header -->
+      <div class="topic">
+        <div class="container">
+          <div class="row">            
+            <ol class="breadcrumb hidden-xs">
+              <li><a href="index.html">首页</a></li>
+              <li><a href="shop.html">购物</a></li>
+              <li class="active">清单</li>
+            </ol>                      
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+      </div> <!-- / .Topic Header -->      
+
+      <div class="container shop-item">
+        <div class="row">
+		  
+          <div class="col-sm-9">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="product-img">
+                  <a href="img/shop/108156-106.jpg" data-lightbox="products" >
+                    <img src="img/shop/108156-106.jpg" class="img-responsive main" id="pro_image">
+                  </a>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4">
+                      <a href="img/shop/2.jpg" data-lightbox="products">
+                        <img src="img/shop/2.jpg" class="img-responsive" alt="...">
+                      </a>
+                    </div>
+                    <div class="col-xs-4">
+                      <a href="img/shop/6.jpg" data-lightbox="products">
+                        <img src="img/shop/6.jpg" class="img-responsive" alt="...">
+                      </a>
+                    </div>
+                    <div class="col-xs-4">
+                      <a href="img/shop/7.jpg" data-lightbox="products">
+                        <img src="img/shop/7.jpg" class="img-responsive" alt="...">
+                      </a>
+                    </div>
+                  </div> <!-- / .row -->
+              </div>
+              <div class="col-sm-6">
+                <h3 class="first-child" id="demond"><span>柠檬汁</span></h3>
+                <ul class="rating list-inline">
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li> 
+                  <li><i class="fa fa-star"></i></li>
+             
+                </ul>
+                <span class="text-muted reviews"><a href="#">(推荐指数)</a></span>
+				<div>
+                  <div class="price-block">
+                  	<span class="price">价格($):</span>
+                    <span class="price" id="price">5</span><br />
+                  	<span class="price">数量:</span>
+                    <input type="number" onkeydown="onlyNum()"  id="numbers" min="1" value="1" class="form-control">
+                  </div>
+                </div>
+                <p class="text-muted">
+                	世上最鲜美的果汁。
+                
+                </p>
+				<br /> 
+				<div class="add-to-cart" id="add">
+					  <a class="btn-animate btn-style btn-xs btn-d btn-primary"><i class="fa fa-shopping-cart"></i>加入购物车 </a>
+					</div>
+				<br /><br /><br />
+              </div>
+            </div>
+
+            <!-- Item Description -->
+            <div class="row">
+            </div> <!-- / .row -->
+			
+			
+          </div>          
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+
+    </div> <!-- / .wrapper -->
+
+    <!-- Footer -->
+     <footer>
+      <div class="container">
+        <div class="row">
+		
+          <!-- Contact Us -->
+          
+            <h4>联系我们</h4>            
+			<p>
+			  <br />
+			  电话 : 15678956321<br />
+			  QQ : 1317733129
+			  <br /><br />
+			  <a>Walker Technology</a>
+			</p>			
+        </div> <!-- / .row -->		
+      </div> <!-- / .container --> 	  
+    </footer><!-- / .Footer -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrolltopcontrol.js"></script>
+	<script src="js/SmoothScroll.js"></script>
+    <script src="js/lightbox-2.6.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/shop-item.js"></script>
+
+  </body>
+</html>
